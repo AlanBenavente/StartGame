@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/**
+fuentes
+
+font-family: "Roboto", sans-serif;
+**/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgba(255, 0, 0, 0.185);
+    font-family: "Roboto", sans-serif;
+    top: 0;
+}
+
+
+form {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    gap: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sectionPrimaria {
+    background-color: grey;
+    text-align: center;
+}
+
+.sectionContenido {
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+
+.sectionFondoSecundaria {
+    background-color: grey;
+    width: 100%;
+}
+
+.sectionProductos {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+
+.imagenProcesador img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.imagenGabinetes img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.imagenMemorias img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.marcasTexto {
+    text-align: center;
+    color: black;
+    background-color: blue;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    top: 0;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.footer {
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    top: 0;
+}
+
+
+.sectionProcesador {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+.sectionGabinete h2 {
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.sectionMemorias {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.sectionMapa {
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        font-size: 20px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        gap: 1px;
+        padding-right: none;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 470px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+}
