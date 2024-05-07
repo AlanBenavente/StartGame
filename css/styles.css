@@ -82,6 +82,13 @@ p {
 }
 
 
+.imagenProcesador img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
 .imagenGabinetes img {
     display: grid;
     margin: auto;
@@ -132,6 +139,13 @@ h3 {
 }
 
 
+.sectionProcesador {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
 
 .sectionGabinete h2 {
     background-color: white;
