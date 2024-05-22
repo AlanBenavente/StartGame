@@ -48,6 +48,8 @@ form {
 }
 
 .sectionPrimaria {
+    display: flex;
+    width: 100%;
     background-color: grey;
     text-align: center;
 }
@@ -58,12 +60,15 @@ form {
 }
 
 h1 {
+    display: flex;
+    width: 100%;
     color: white;
     text-align: left;
     font-family: "Roboto", sans-serif;
 }
 
 p {
+    display: flex;
     width: 100%;
     color: white;
     text-align: left;
@@ -103,7 +108,16 @@ p {
     height: 300px;
 }
 
+.sectionMarcas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .marcasTexto {
+    display: flex;
+    width: 100%;
     text-align: center;
     color: black;
     background-color: blue;
@@ -111,9 +125,8 @@ p {
 
 .marcas {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
     top: 0;
     background-color: blue;
     text-align: center;
@@ -121,6 +134,10 @@ p {
 }
 
 h3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
     color: white;
     font-size: 40px;
 }
@@ -136,6 +153,7 @@ h3 {
     gap: 30px;
     justify-content: center;
     top: 0;
+    flex-wrap: wrap;
 }
 
 
@@ -223,6 +241,20 @@ h3 {
         width: 100%;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
 
 }
 
@@ -244,6 +276,20 @@ h3 {
         width: 100%;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 470px) {
@@ -261,6 +307,20 @@ h3 {
         align-items: center;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -272,6 +332,20 @@ h3 {
     }
 
     header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer {
         display: flex;
         flex-direction: column;
         width: 100%;
