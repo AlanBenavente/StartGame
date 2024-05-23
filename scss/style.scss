@@ -153,8 +153,8 @@ footer {
 }
 
 .img-card img:hover {
-    filter: drop-shadow(15px 15px 10px red) blur(2px);
-
+    filter: drop-shadow(15px 15px 10px red);
+    transform: scale(1.2);
 }
 
 .sectionGabinete h2 {
