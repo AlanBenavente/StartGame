@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "./base/reset";
 @import "./layout/header";
+@import "./utilities/mixins";
 
 
 
@@ -70,6 +71,7 @@ p {
     height: 300px;
 }
 
+
 .imagenMemorias img {
     display: grid;
     margin: auto;
@@ -137,6 +139,21 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
+
+}
+
+.sectionGabinete {
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #330537, #472464, #514696, #4a6aca, #0091ff);
+}
+
+.img-card {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-card img:hover {
+    filter: drop-shadow(15px 15px 10px red) blur(2px);
 
 }
 

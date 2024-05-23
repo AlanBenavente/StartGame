@@ -140,6 +140,17 @@ footer {
   text-align: center;
   color: white; }
 
+.sectionGabinete {
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #330537, #472464, #514696, #4a6aca, #0091ff); }
+
+.img-card {
+  width: 100%;
+  object-fit: cover; }
+
+.img-card img:hover {
+  filter: drop-shadow(15px 15px 10px red) blur(2px); }
+
 .sectionGabinete h2 {
   background-color: white;
   text-align: left;
@@ -237,10 +248,12 @@ footer {
 @media (max-width: 600px) {
   header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
-    flex-direction: column;
-    background-color: red;
-    margin: auto; }
+    background-color: red; }
   nav .navBar {
     display: flex;
     flex-direction: column;
