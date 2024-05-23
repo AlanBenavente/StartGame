@@ -21,21 +21,20 @@ header {
   background-color: rgba(255, 0, 0, 0.185);
   font-family: "Roboto", sans-serif;
   top: 0; }
+  header .navBar {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    gap: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif; }
 
 form {
   text-align: center;
-  font-family: "Roboto", sans-serif; }
-
-.navBar {
-  display: flex;
-  width: 100%;
-  list-style: none;
-  text-align: center;
-  gap: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
   font-family: "Roboto", sans-serif; }
 
 .sectionPrimaria {
@@ -151,29 +150,45 @@ h3 {
   grid-template-areas: "div1" "div1" "div2" "div2" "div3" "div4" "div4" "div5" "div3" "div6" "div6" "div5"; }
 
 .grid .div1 {
+  display: flex;
+  width: 100%;
   background-color: red; }
 
 .grid .div2 {
+  display: flex;
+  width: 100%;
   background-color: aqua; }
 
 .grid .div3 {
+  display: flex;
+  width: 100%;
   background-color: #00f53d; }
 
 .grid .div4 {
+  display: flex;
+  width: 100%;
   background-color: #ff00dd; }
 
 .grid .div5 {
+  display: flex;
+  width: 100%;
   background-color: #fda80a; }
 
 .grid .div6 {
+  display: flex;
+  width: 100%;
   background-color: blue; }
 
 .sectionMemorias {
+  display: flex;
+  width: 100%;
   background-color: black;
   text-align: center;
   color: white; }
 
 .sectionMapa {
+  display: flex;
+  width: 100%;
   background-color: gray;
   text-align: center; }
 
@@ -184,12 +199,12 @@ h3 {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 20px;
   gap: 30px; }
 
 @media (max-width: 768px) {
   header {
+    display: flex;
+    width: 100%;
     flex-direction: column;
     font-size: 20px;
     width: 100%; }
@@ -240,6 +255,14 @@ h3 {
     flex-direction: column;
     width: 100%;
     align-items: center; }
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 1px;
+    padding-right: none;
+    align-items: center;
+    width: 100%; }
   main {
     display: flex;
     flex-direction: column;
@@ -262,6 +285,14 @@ h3 {
     flex-direction: column;
     width: 100%;
     align-items: center; }
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 1px;
+    padding-right: none;
+    align-items: center;
+    width: 100%; }
   main {
     display: flex;
     flex-direction: column;
