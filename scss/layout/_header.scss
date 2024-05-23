@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgba(255, 0, 0, 0.185);
+    font-family: "Roboto", sans-serif;
+    top: 0;
+
+    .navBar {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+        gap: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+    }
+}
