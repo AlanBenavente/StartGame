@@ -1,0 +1,25 @@
+footer {
+    background-color: lightblue;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    top: 0;
+    flex-wrap: wrap;
+    margin: auto;
+
+
+}
+
+.mensaje {
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}

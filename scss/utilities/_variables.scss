@@ -1,0 +1,213 @@
+form {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.sectionPrimaria {
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+.sectionContenido {
+    text-align: center;
+
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.sectionFondoSecundaria {
+    background-color: grey;
+    width: 100%;
+}
+
+.sectionProductos {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+
+.imagenProcesador img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.imagenGabinetes img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+.imagenMemorias img {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.sectionMarcas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.marcasTexto {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: blue;
+}
+
+.marcas {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+h4 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+
+.sectionMapa {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+.sectionProcesador {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+.sectionGabinete {
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #330537, #472464, #514696, #4a6aca, #0091ff);
+}
+
+.img-card {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-card img:hover {
+    filter: drop-shadow(15px 15px 10px red);
+    transform: scale(1.2);
+}
+
+
+section .grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 50% repeat(2, 1fr) 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "div1" "div1" "div2" "div2"
+        "div3" "div4" "div4" "div5"
+        "div3" "img-card" "img-card" "div5"
+    ;
+}
+
+.grid .div1 {
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
+.grid .div2 {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+}
+
+.grid .div3 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 245, 61);
+}
+
+.grid .div4 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 0, 221);
+}
+
+.grid .div5 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(253, 168, 10);
+}
+
+.grid .img-card {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+}
+
+
+.sectionMemorias {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.sectionMapa {
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
